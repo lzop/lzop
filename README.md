@@ -12,14 +12,14 @@ You can click the Preview link to take a look at your changes.
 ###git操作<br>
 --1,设定名称和邮箱<br>
 git config --global user.name "xxxx" <br>
-git config --global user.email xxxxx@163.com<br>
+git config --global user.email 邮箱<br>
 --2,创建本地仓库<br>
 git init<br>
 --3,上传所以文件到本地仓库<br>
-git add.<br>
+git add .<br>
 --4,提交<br>
 git commit -m "initial commit"<br>
 --5,关联本地仓库并上传代码<br>
-git remote add origin https://github.com/XXX/XXXXX<br>
+git remote add origin 地址<br>
 --6,push<br>
 git push origin master<br>
